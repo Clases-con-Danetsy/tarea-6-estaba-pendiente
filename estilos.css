@@ -1,4 +1,15 @@
+body{
+  
+  background-color: #cacaca;
+}
+h1{
+  font-size: 6rem;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(16, 16, 157);
+}
 #gallery {
+  padding: 0 4rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 200px);
